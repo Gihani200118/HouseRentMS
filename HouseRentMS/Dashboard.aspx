@@ -39,6 +39,7 @@
         <div class="dashboard-container">
 
             <h2 class="text-primary text-center mb-4 ">House Rental Management System</h2>
+            <h2>Get Your Dream Home...</h2>
 
 
             <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
@@ -62,7 +63,7 @@
                                 <div class="progress-bar bg-light" style="width: 75%"></div>
                             </div>
 
-                            <small>60% of target</small>
+                            <small>80% of target</small>
                         </div>
                     </div>
                 </div>
