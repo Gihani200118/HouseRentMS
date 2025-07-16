@@ -1,0 +1,179 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("img/background3.jpg");
+    background-size: cover;
+}
+
+.heading p {
+    text-align: center;
+    padding: 20px;
+    background-color: #004466;
+    color: black;
+    font-size: 30px;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin: 0 0 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.lbluser, .lblpass {
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.txtuser, .txtpass {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    background-color: lightgray;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.btnsubmit {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 148, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btnsubmit:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.registerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin: 0 0 30px;
+    text-align: center;
+    color: cyan;
+}
+
+.lblfield {
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.txtfield {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    background-color: lightgray;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.btnregsubmit {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 148, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btnregsubmit:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.success-msg {
+    color: lightgreen;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.welcome-label {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
+
+.dashboard-container {
+    position: relative;
+    padding-top: 60px; /* So content doesn’t overlap the welcome label */
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.house-img {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
